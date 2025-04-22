@@ -1,0 +1,5 @@
+<linker>
+    <assembly fullname="message-bus-unity" ignoreIfMissing="1">
+        <namespace fullname="message-bus-unity" preserve="all"/>
+    </assembly>
+</linker>
