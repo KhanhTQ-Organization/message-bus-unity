@@ -76,6 +76,7 @@ namespace message_bus.editor
             builder.Append("using System;").Append("\n");
             builder.Append("using UnityEngine;").Append("\n");
             builder.Append("using com.ktgame.unregister;").Append("\n");
+            builder.Append("using services.message_bus;").Append("\n");
             
             var content = GenerateMessageExtensionsContent(out var namespaces);
             foreach (var ns in namespaces)
