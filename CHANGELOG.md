@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/KhanhTQ-Organization/message-bus-unity/compare/v1.0.1...v1.0.2) (2025-07-04)
+
+
+### Bug Fixes
+
+* scope message ([9f16c9c](https://github.com/KhanhTQ-Organization/message-bus-unity/commit/9f16c9cfd458775497c842fd1a734a6fd6242204))
+
 ## [1.0.1](https://github.com/KhanhTQ-hub/message-bus-unity/compare/v1.0.0...v1.0.1) (2025-05-06)
 
 
