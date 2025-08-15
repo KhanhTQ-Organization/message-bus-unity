@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/KhanhTQ-Organization/message-bus-unity/compare/v1.0.2...v1.0.3) (2025-08-15)
+
+
+### Bug Fixes
+
+* update message ([3ab1803](https://github.com/KhanhTQ-Organization/message-bus-unity/commit/3ab1803760f58e37feefe2ff908ed6d58e0a1d5d))
+
 ## [1.0.2](https://github.com/KhanhTQ-Organization/message-bus-unity/compare/v1.0.1...v1.0.2) (2025-07-04)
 
 
