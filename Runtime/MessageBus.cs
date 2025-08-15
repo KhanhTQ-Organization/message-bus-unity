@@ -56,7 +56,7 @@ namespace Message_bus
 			return default;
 		}
 
-		private T GetOrAddMessage<T>() where T : IMessagePipe
+		private T GetOrAddMessage<T>() where T : IMessagePipe, new()
 		{
 			var type = typeof(T);
 			if (_messages.TryGetValue(type, out var e))
@@ -64,7 +64,7 @@ namespace Message_bus
 				return (T)e;
 			}
 
-			var t = Activator.CreateInstance<T>();
+			var t = new T();
 			_messages.Add(type, t);
 			return t;
 		}
